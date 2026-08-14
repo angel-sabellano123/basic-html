@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("matcha.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.wrapper {
+    width: 420px;
+    padding: 40px;
+    color: rgb(21, 32, 4);
+    border: 5px solid rgb(5, 46, 8);
+    border-radius: 80px;
+    background: rgba(158, 158, 161, 0.3);
+}
+.wrapper h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.input-box {
+    margin-bottom: 20px;
+}
+.input-box label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 18px;
+}
+.input-box input {
+    width: 100%;
+    height: 45px;
+    padding: 10px;
+    background: transparent;
+    border: 2px solid black;
+    border-radius: 40px;
+    outline: none;
+}
+.remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+.remember-forgot a {
+    color: rgb(16, 27, 0);
+}
+.btn {
+    width: 100%;
+    height: 45px;
+    background: rgb(245, 240, 240);
+    color: rgb(16, 27, 0);
+    border: 2px solid black;
+    border-radius: 40px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.container {
+    text-align: center;
+}
+
+.matcha {
+    font-size: 50px;
+    color: rgb(5, 46, 8);
+    margin-bottom: 20px;
+}
