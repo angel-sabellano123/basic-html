@@ -5,37 +5,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Log in to Mat is Cha</title>
-
+    <title>Log in to Matcha is Matching</title>
     <link rel="stylesheet" href="mat.css">
 </head>
-
 <body>
 
     <div class="container">
-    <h1 class="matcha">Matcha is matching </h1>
+        <h1 class="matcha">Matcha is Matching</h1>
+        <div class="wrapper">
+            <form action="">
+                <h2>Log In</h2>
 
-    <div class="wrapper">
-        <form action="">
-            <h1>Log In</h1>
+                <div class="input-box">
+                    <label>Username</label>
+                    <input type="text" placeholder="Enter your username" required>
+                </div>
 
-            <div class="input-box">
-                <label>Username:</label>
-                <input type="text" placeholder="Username" required>
-            </div>
-            <div class="input-box">
-                <label>Password:</label>
-                <input type="password" placeholder="Password" required>
-            </div>
-            <div class="remember-forgot">
-                <label>
-                    <input type="checkbox">
-                    Remember me
-                </label>
-                <a href="#">Forgot Password?</a>
-            </div>
+                <div class="input-box">
+                    <label>Password</label>
+                    <input type="password" placeholder="Enter your password" required>
+                </div>
+
+                <div class="remember-forgot">
+                    <label>
+                        <input type="checkbox">
+                        Remember me
+                    </label>
+
+                    <a href="#">Forgot Password?</a>
+                </div>
+
                 <button type="submit" class="btn">Log In</button>
-        </form>
+
+                <p class="signup">
+                    Don't have an account?
+                    <a href="#">Sign Up</a>
+                </p>
+            </form>
+        </div>
     </div>
 
 </body>
