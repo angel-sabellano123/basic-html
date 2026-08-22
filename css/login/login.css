@@ -10,7 +10,7 @@ body {
     justify-content: center;
     align-items: center;
     background-image:
-        linear-gradient(rgba(20, 55, 20, 0.45),rgba(10, 35, 15, 0.55)), url("matcha.jpg");
+        linear-gradient(rgba(100, 168, 100, 0.50),rgba(83, 216, 109, 0.55)), url("../../images/bg.jpeg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -22,9 +22,9 @@ body {
 }
 .matcha {
     font-size: 50px;
-    color: rgb(149, 209, 125);
+    color: rgb(67, 112, 50);
     margin-bottom: 25px;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 2px 5px rgba(5, 29, 4, 0.5);
 }
 .wrapper {
     width: 420px;
@@ -84,7 +84,7 @@ body {
 .btn {
     width: 100%;
     height: 48px;
-    background: rgb(5, 55, 15);
+    background: rgb(24, 117, 44);
     color: white;
     border: none;
     border-radius: 25px;
@@ -92,6 +92,11 @@ body {
     font-weight: bold;
     cursor: pointer;
     transition: 0.3s;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
 }
 .signup {
     margin-top: 25px;
